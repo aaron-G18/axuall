@@ -10,7 +10,9 @@ app = Flask(__name__)
 @app.route('/')
 def greeting():
     greeting = ("Hello! Thank you for checking out my wiki-searcher! <br> "
-                "Please add a subdomain to the URL to search, either in the address bar above. or using cURL like utility.")
+                "Please add a subdomain to the URL to search, <br> "
+                "either in the address bar above (if on a browser), "
+                "or using a cURL like utility to send a GET request.")
     return greeting
 
 
