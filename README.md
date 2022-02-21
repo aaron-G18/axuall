@@ -34,6 +34,16 @@ Make sure that the most recent version of Chrome is installed on your machine (T
 
 <br>
 
+### Installing Flask:  
+Use pip to install flask and its required dependencies. In your command line enter:
+```
+pip install Flask
+```
+
+If you have any issues installing Flask, please refer to their installation instructions [here](https://flask.palletsprojects.com/en/2.0.x/installation/)
+
+<br>
+
 ### Editting local host file
 You will need to add a few entries to your host file so that the wiki-searcher GET requests can be resolved to your localhost ip address. If you are on macOS, there is a great walkthrough of editing your host file [here](https://help.nexcess.net/how-to-find-the-hosts-file-on-my-mac#:~:text=The%20Hosts%20file%20on%20a,the%20%2Fetc%2Fhosts%20folder.).
 You will need to add the following entries to your host file:
