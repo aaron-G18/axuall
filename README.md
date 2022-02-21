@@ -37,7 +37,7 @@ Make sure that the most recent version of Chrome is installed on your machine (T
 ### Installing Flask:  
 Use pip to install flask and its required dependencies. In your command line enter:
 ```
-pip install Flask
+pip3 install Flask
 ```
 
 If you have any issues installing Flask, please refer to their installation instructions [here](https://flask.palletsprojects.com/en/2.0.x/installation/)
